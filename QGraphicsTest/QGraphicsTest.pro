@@ -13,14 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp \
-    view.cpp \
-    my_pixmap.cpp
+        mainwindow.cpp
 
 HEADERS  += mainwindow.h \
-    view.h \
-    scene.h \
-    my_pixmap.h
+    view.h 
 
 FORMS    += mainwindow.ui
 
