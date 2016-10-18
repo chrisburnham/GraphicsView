@@ -8,6 +8,10 @@ class My_pixmap : public QObject, public QGraphicsPixmapItem
   Q_OBJECT
 public:
   explicit My_pixmap(QGraphicsItem *parent = 0);
+  
+  virtual void paint(QPainter *painter,
+                     const QStyleOptionGraphicsItem *option,
+                     QWidget *widget);
 };
 
 #endif // MY_PIXMAP_H
