@@ -11,6 +11,9 @@ My_pixmap::My_pixmap(QGraphicsItem *parent) :
   // Things I've tried that haven't helped
   //setShapeMode(QGraphicsPixmapItem::BoundingRectShape);
   //setPanelModality(QGraphicsItem::SceneModal);
+  //setFlag(QGraphicsItem::ItemClipsToShape, true);
+  //setFlag(QGraphicsItem::ItemIgnoresParentOpacity, true);
+  //setFlag(QGraphicsItem::ItemStacksBehindParent, false);
 }
 
 void My_pixmap::paint(QPainter *painter,
