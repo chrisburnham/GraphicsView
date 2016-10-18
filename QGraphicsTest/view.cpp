@@ -7,6 +7,13 @@ View::View(QWidget *parent) :
 
   Scene *scene = new Scene();
   setScene(scene);
+  
+  // Things I've tried that haven't helped
+  //setViewportUpdateMode(QGraphicsView::FullViewportUpdate);
+  //setViewportUpdateMode(QGraphicsView::MinimalViewportUpdate);
+  //setViewportUpdateMode(QGraphicsView::SmartViewportUpdate);
+  //setViewportUpdateMode(QGraphicsView::BoundingRectViewportUpdate);
+  //setCacheMode(QGraphicsView::CacheBackground);
 }
 
 void View::wheelEvent(QWheelEvent *event)
