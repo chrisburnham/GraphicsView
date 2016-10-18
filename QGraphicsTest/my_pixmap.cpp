@@ -6,5 +6,5 @@ My_pixmap::My_pixmap(QGraphicsItem *parent) :
 {
   QPixmap pixmap(":/images/chart.png");
   setPixmap(pixmap);
-  //setTransformationMode(Qt::SmoothTransformation);
+  setTransformationMode(Qt::SmoothTransformation);
 }
