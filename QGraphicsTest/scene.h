@@ -13,6 +13,10 @@ public:
   {
     My_pixmap *pixmap = new My_pixmap();
     addItem(pixmap);
+    
+    // Things I've tried that haven't helped
+    //setItemIndexMethod(QGraphicsScene::BspTreeIndex);
+    //setItemIndexMethod(QGraphicsScene::NoIndex);
   }
 };
 
